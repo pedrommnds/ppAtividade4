@@ -13,9 +13,4 @@ public class PresuntoDecorator extends PizzaDecorator {
         decorated.preparar();
         System.out.println("Colocando o presunto");
     };
-    
-	@Override
-	public String toString() {
-		return "Presunto";
-	};
 }

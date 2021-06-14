@@ -13,9 +13,4 @@ public class AzeitonaDecorator extends PizzaDecorator {
         decorated.preparar();
         System.out.println("Colocando a azeitona");
     };
-    
-	@Override
-	public String toString() {
-		return "Azeitona";
-	}; 
 }

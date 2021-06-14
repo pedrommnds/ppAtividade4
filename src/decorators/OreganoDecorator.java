@@ -13,9 +13,4 @@ public class OreganoDecorator extends PizzaDecorator {
         decorated.preparar();
         System.out.println("Colocando o oregano");
     };
-    
-	@Override
-	public String toString() {
-		return "Oregano";
-	};    
 }
