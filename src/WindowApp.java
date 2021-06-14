@@ -18,7 +18,6 @@ JFrame frame;
 	};
 
 	private void initialize() throws Exception {
-	
 		File currentDir = new File("./plugins");
 		String[] plugins = currentDir.list();
 		URL[] jars = new URL[plugins.length];
